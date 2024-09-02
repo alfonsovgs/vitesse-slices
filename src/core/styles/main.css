@@ -1,0 +1,59 @@
+@import './markdown.css';
+
+@layer tailwind-base, primevue, tailwind-utilities;
+
+@layer tailwind-base {
+  @tailwind base;
+}
+
+@layer tailwind-utilities {
+  @tailwind components;
+  @tailwind utilities;
+}
+
+:root {
+  --primary-color: var(--p-primary-color);
+  --content-background: #ffffff;
+  --card-background: #ffffff;
+  --border-color: var(--p-surface-200);
+  --ground-background: var(--p-surface-50);
+  --overlay-background: #ffffff;
+  --nav-item-color: #ffffff;
+}
+
+:root.dark {
+  --primary-color: var(--p-primary-color);
+  --content-background: var(--p-surface-950);
+  --card-background: var(--p-surface-900);
+  --border-color: var(--p-surface-700);
+  --ground-background: var(--p-surface-950);
+  --overlay-background: var(--p-surface-900);
+  --nav-item-color: var(--p-surface-950);
+}
+
+html {
+  font-size: 14px;
+}
+
+html,
+body,
+#app {
+  margin: 0;
+  padding: 0;
+  background-color: var(--ground-background);
+}
+
+#nprogress {
+  pointer-events: none;
+}
+
+#nprogress .bar {
+  background-color: var(--primary-color);
+  opacity: 1;
+  position: fixed;
+  z-index: 1000000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+}

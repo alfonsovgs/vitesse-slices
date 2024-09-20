@@ -39,9 +39,9 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 - 📲 [PWA](https://github.com/antfu/vite-plugin-pwa)
 
-- 🎨 [UnoCSS](https://github.com/antfu/unocss) - the instant on-demand atomic CSS engine
+- 🎨 [PrimeVue V4 with Tailwind](https://github.com/primefaces/primevue) - the Next-Gen UI Suite for Vue.js
 
-- 😃 [Use icons from any icon sets with classes](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
+- 😃 [Iconify (Carbon icons)](https://github.com/iconify)
 
 - 🌍 [I18n ready](./locales)
 
@@ -71,12 +71,11 @@ Mocking up web app with <b>Vitesse</b><sup><em>(speed)</em></sup><br>
 
 ### UI Frameworks
 
-- [UnoCSS](https://github.com/antfu/unocss) - The instant on-demand atomic CSS engine.
+- [PrimeVue V4 with Tailwind](https://github.com/primefaces/primevue) - The Next-Gen UI Suite for Vue.js.
 
 ### Icons
 
 - [Iconify](https://iconify.design) - use icons from any icon sets [🔍Icônes](https://icones.netlify.app/)
-- [Pure CSS Icons via UnoCSS](https://github.com/antfu/unocss/tree/main/packages/preset-icons)
 
 ### Plugins
 

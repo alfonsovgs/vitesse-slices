@@ -1,15 +1,33 @@
 @import './markdown.css';
 
-@layer tailwind-base, primevue, tailwind-utilities;
+@import 'tailwindcss';
+@import 'tailwindcss-primeui';
+@plugin "@iconify/tailwind4";
 
-@layer tailwind-base {
-  @tailwind base;
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+/* @layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
+  }
+} */
+
+@theme {
+  --font-heading: 'Bricolage Grotesque';
+  --font-sans: 'Sora';
 }
 
-@layer tailwind-utilities {
-  @tailwind components;
-  @tailwind utilities;
-}
+@custom-variant dark (&:where(.dark, .dark *));
 
 :root {
   --primary-color: var(--p-primary-color);
@@ -41,6 +59,7 @@ body,
   margin: 0;
   padding: 0;
   background-color: var(--ground-background);
+  color: var(--font-color) !important;
 }
 
 #nprogress {

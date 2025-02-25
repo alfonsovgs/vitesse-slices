@@ -19,7 +19,7 @@ const { t } = useI18n()
     <div class="text-4xl">
       <div class="icon-[carbon--campsite] inline-block" />
     </div>
-    <p>
+    <p class="font-heading">
       <a rel="noreferrer" href="https://github.com/antfu/vitesse" target="_blank">
         Vitesse
       </a>
@@ -31,15 +31,16 @@ const { t } = useI18n()
     <div class="py-4" />
 
     <TheInput
-              v-model="name"
-              :placeholder="t('intro.whats-your-name')"
-              autocomplete="false"
-              @keydown.enter="go" />
+      v-model="name"
+      :placeholder="t('intro.whats-your-name')"
+      autocomplete="false"
+      @keydown.enter="go"
+    />
 
     <label class="hidden" for="input">{{ t('intro.whats-your-name') }}</label>
 
     <div>
-      <Button size="small" class="m-3" :disabled="!name" @click="go" :label="t('button.go')" />
+      <Button size="small" class="m-3" :disabled="!name" :label="t('button.go')" @click="go" />
     </div>
   </div>
 </template>

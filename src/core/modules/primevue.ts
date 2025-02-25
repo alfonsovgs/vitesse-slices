@@ -1,11 +1,11 @@
-import PrimeVue from 'primevue/config'
+import type { UserModule } from '~/types'
+import { definePreset } from '@primevue/themes'
+
 import Aura from '@primevue/themes/aura'
+import PrimeVue from 'primevue/config'
 
 import ConfirmationService from 'primevue/confirmationservice'
 import ToastService from 'primevue/toastservice'
-
-import { definePreset } from '@primevue/themes'
-import type { UserModule } from '~/types'
 
 const Noir = definePreset(Aura, {
   semantic: {
@@ -64,7 +64,7 @@ export const install: UserModule = ({ app }) => {
         darkModeSelector: '.dark',
         cssLayer: {
           name: 'primevue',
-          order: 'tailwind-base, primevue, tailwind-utilities',
+          order: 'theme, base, primevue',
         },
       },
     },

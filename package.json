@@ -19,7 +19,7 @@
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
     "@primevue/themes": "4.3.3",
-    "@tanstack/vue-query": "^5.74.9",
+    "@tanstack/vue-query": "^5.75.1",
     "@unhead/vue": "2.0.8",
     "@vee-validate/yup": "^4.15.0",
     "@vueuse/core": "^13.1.0",

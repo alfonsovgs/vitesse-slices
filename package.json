@@ -51,7 +51,7 @@
     "cross-env": "^7.0.3",
     "cypress": "^14.3.2",
     "cypress-vite": "^1.6.0",
-    "eslint": "^9.25.1",
+    "eslint": "^9.26.0",
     "eslint-plugin-cypress": "^4.3.0",
     "eslint-plugin-format": "^1.0.1",
     "https-localhost": "^4.7.1",
@@ -70,7 +70,7 @@
     "unplugin-vue-macros": "^2.14.5",
     "unplugin-vue-markdown": "^28.3.1",
     "unplugin-vue-router": "^0.12.0",
-    "vite": "^6.3.4",
+    "vite": "^6.3.5",
     "vite-bundle-visualizer": "^1.2.1",
     "vite-plugin-inspect": "^11.0.1",
     "vite-plugin-pwa": "^1.0.0",
@@ -79,7 +79,7 @@
     "vite-plugin-webfont-dl": "^3.10.4",
     "vite-ssg": "^26.1.1",
     "vite-ssg-sitemap": "^0.8.1",
-    "vitest": "^3.1.2",
+    "vitest": "^3.1.3",
     "vue-tsc": "^2.2.10"
   },
   "resolutions": {

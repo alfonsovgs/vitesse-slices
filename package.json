@@ -19,7 +19,7 @@
   "dependencies": {
     "@formkit/auto-animate": "^0.8.2",
     "@primevue/themes": "4.3.4",
-    "@tanstack/vue-query": "^5.75.7",
+    "@tanstack/vue-query": "^5.76.0",
     "@unhead/vue": "2.0.8",
     "@vee-validate/yup": "^4.15.0",
     "@vueuse/core": "^13.1.0",
@@ -55,7 +55,7 @@
     "eslint-plugin-cypress": "^4.3.0",
     "eslint-plugin-format": "^1.0.1",
     "https-localhost": "^4.7.1",
-    "lint-staged": "^15.5.2",
+    "lint-staged": "^16.0.0",
     "markdown-it-link-attributes": "^4.0.1",
     "pnpm": "^10.10.0",
     "postcss": "^8.5.3",
